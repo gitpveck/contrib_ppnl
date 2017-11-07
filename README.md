@@ -49,5 +49,8 @@ LDAP | LXC | openldap |
 Ticketsystem| LXC | OTRS | 
 voice chat| LXC | mumble | 
 
-De meeste oplossingen passen zowel in docker als in LXC 
-Waar gaat de voorkeur naar uit ? Dit zal gezamenlijk besloten moeten worden..
+De meeste oplossingen passen zowel in docker als in LXC. Deze kunnen perfect nast elkaar draaien of zelfs Docker in LXD/LXC. Hoewel docker-compose geloof ik (nog) niet.. Last time I checked.
+
+Dus waar gaat de voorkeur naar uit ? Dit moet per applicatie bekeken worden en gezamenlijk besloten moeten worden..
+
+Eerst misschien een VM creeren om te beginnen...
